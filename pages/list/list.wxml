@@ -1,0 +1,25 @@
+<!--pages/list.wxml-->
+<import src="../list-template/list-template.wxml"/>
+<view>
+  <swiper indicator-dots>
+    <swiper-item>
+      <image src="/images/detail/carousel/01.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/detail/carousel/02.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/detail/carousel/03.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+    <swiper-item>                             
+      <image src="/images/detail/carousel/04.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </swiper>  
+
+
+  <block wx:for='{{datas}}' wx:key='index'>
+    <view bindtap='toDetail' data-index='{{index}}'>
+      <template is="listTemplate" data="{{...item}}"></template>
+    </view>
+  </block>
+</view>

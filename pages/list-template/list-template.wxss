@@ -1,0 +1,45 @@
+/* pages/list-template/list-template.wxss */
+
+.listContainer{
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+}
+.header{
+  font-size: 20rpx;
+  float: left;
+  text-align: left;
+  margin-bottom: 10rpx;
+}
+.header image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin: 0 20rpx;
+}
+.littleText{
+  font-size: 30rpx;
+  margin: 20rpx;
+  font-weight: bold;
+}
+.bigImg{
+  text-align: center;
+  width: 100%;
+}
+.manyText{
+  text-indent: 60rpx;
+  margin: 10rpx;
+}
+.starView{
+  float: left;
+  margin-top: 20rpx;
+}
+.starView image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 10rpx;
+  vertical-align: middle;
+}
+.starView text{
+  vertical-align: middle;
+}

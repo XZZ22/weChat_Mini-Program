@@ -1,0 +1,55 @@
+/* pages/detail/detail.wxss */
+
+.detailContainer{
+  display: flex;
+  flex-direction: column;
+}
+.avatar{
+  width: 100%;
+}
+.header_img{
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.header_img image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin: 5rpx;
+}
+.header_img text{
+  margin: 5rpx 10rpx;
+}
+.company{
+  font-size: 38rpx;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.iconImg {
+  position: relative;
+}
+.iconImg image{
+  width: 90rpx;
+  height: 90rpx;
+  float: right;
+  margin-right: 10rpx;
+}
+.line{
+  height: 1rpx;
+  background-color: black;
+  width: 90%;
+  position: absolute;
+  margin-left: 5%;
+  top: 45rpx;
+  z-index: -1;
+}
+button{
+  font-size: 30rpx;
+  width: 300rpx;
+  margin-bottom: 20rpx;
+}
+.content{
+  text-indent: 60rpx;
+  font-size: 30rx;
+  margin-top: 20rpx;
+}
